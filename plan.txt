@@ -1,0 +1,37 @@
+📊 Sales Insights System — Project Plan
+
+1. Project Goal
+- Deliver a simple analytics platform for sales insights (top sellers, revenue by region, trends) with a Python backend (MySQL, Pandas) and a Next.js frontend dashboard.
+
+2. Current State
+- Backend:
+  - Analysis scripts: monthly_sales.py, sales_by_region.py, top_products.py
+  - Database: init_sales.sql, populate_data.py
+  - Main app: app.py
+  - No data/ directory or sample CSV/Excel files found
+- Frontend:
+  - Next.js app with InsightCard and dashboard page
+  - Minimal UI, no API integration yet
+
+3. Missing/To-Do
+- [ ] Add or locate sample sales data (CSV/Excel) for testing
+- [ ] Ensure backend can load/process real data from DB
+- [ ] Expose backend insights via API endpoints (Flask/FastAPI)
+- [ ] Connect frontend to backend API (fetch/display real insights)
+- [ ] Polish dashboard UI (charts, loading states, error handling)
+- [ ] (Optional) Add authentication, deployment scripts, or visualizations
+
+4. Next Steps
+- Step 1: Add/confirm sample data files for backend
+- Step 2: Review/complete backend API endpoints
+- Step 3: Connect frontend to backend API
+- Step 4: Polish UI and add extra features as needed
+
+---
+Update this file as you make progress. Let me know which step to start with or if you want to focus on a specific area! 
+
+5. Tech Stack
+- Backend: Python, FastAPI, Pandas, PyMySQL, Uvicorn
+- Database: MySQL
+- Frontend: Next.js, React, Tailwind CSS, react-icons
+- Data Format: CSV/Excel 

@@ -37,9 +37,9 @@ This system delivers a **simple, structured** and **insightful sales analysis wo
 
 ## 🔧 Tech Stack
 
-- **Backend / Analysis**: Python (Pandas, SQLAlchemy)
-- **Database**: MySQL or MariaDB
-- **Visualization**: Matplotlib / Seaborn / Streamlit (optional UI)
+- **Backend / Analysis**: Python, FastAPI, Pandas, PyMySQL, Uvicorn
+- **Database**: MySQL
+- **Frontend**: Next.js, React, Tailwind CSS, react-icons
 - **Data Input Format**: CSV or Excel
 
 ---
