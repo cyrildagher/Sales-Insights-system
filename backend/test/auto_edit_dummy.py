@@ -16,7 +16,7 @@ def main():
             file_path = os.path.join(TEST_DIR, filename)
             make_tiny_change(file_path)
         print("Made tiny changes to all dummy files. Commit and push now!")
-        time.sleep(600)  # 10 minutes
+        time.sleep(300)  # 5 minutes
 
 if __name__ == "__main__":
     main()
