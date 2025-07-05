@@ -33,8 +33,8 @@ def git_commit_and_push():
         return False
 
 def main():
-    print("🤖 Starting automated dummy file editor (conservative mode)")
-    print("📝 Will make changes every 30 minutes to 5 files")
+    print("🤖 Starting automated dummy file editor (5-minute mode)")
+    print("📝 Will make changes every 5 minutes to 5 files")
     print("🛑 Press Ctrl+C to stop the script")
     
     while True:
@@ -52,8 +52,8 @@ def main():
             else:
                 print("⚠️  Failed to push - check manually")
             
-            print("⏰ Waiting 30 minutes...")
-            time.sleep(1800)  # 30 minutes
+            print("⏰ Waiting 5 minutes...")
+            time.sleep(300)  # 5 minutes
             
         except KeyboardInterrupt:
             print("\n🛑 Script stopped by user")
