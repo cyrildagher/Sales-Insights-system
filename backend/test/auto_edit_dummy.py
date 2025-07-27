@@ -1,6 +1,7 @@
 import time
 import os
 import subprocess
+import random 
 from datetime import datetime
 
 TEST_DIR = "."
@@ -36,8 +37,11 @@ def main():
     print("🤖 Starting automated dummy file editor (5-minute mode)")
     print("📝 Will make changes every 5 minutes to 5 files")
     print("🛑 Press Ctrl+C to stop the script")
+
+    max_commits = random.randint(5,9)
+    commit_count = 0 
     
-    while True:
+    while commit_count < max_commits:
         try:
             # Make changes to dummy files
             for filename in DUMMY_FILES:
