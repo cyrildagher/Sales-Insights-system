@@ -5,4 +5,4 @@ CREATE TABLE IF NOT EXISTS sales_data (
     quantity INT NOT NULL CHECK (quantity > 0),
     price DECIMAL(10,2) NOT NULL CHECK (price >= 0),
     sale_date DATE NOT NULL
-);
+); 
